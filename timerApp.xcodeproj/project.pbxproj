@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B80A3BE2AC9340D00E40C0C /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80A3BD2AC9340D00E40C0C /* PickerView.swift */; };
+		3B80A3C02AC9363700E40C0C /* PickerTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B80A3BF2AC9363700E40C0C /* PickerTimeView.swift */; };
+		3B97629B2A8B9B38009310E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97629A2A8B9B38009310E4 /* AppDelegate.swift */; };
+		3B97629D2A8B9B38009310E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B97629C2A8B9B38009310E4 /* ContentView.swift */; };
+		3B97629F2A8B9B39009310E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B97629E2A8B9B39009310E4 /* Assets.xcassets */; };
+		3B9762A22A8B9B39009310E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9762A12A8B9B39009310E4 /* Preview Assets.xcassets */; };
+		3B9762B62A8BB612009310E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9762B12A8BB612009310E4 /* Main.storyboard */; };
+		3BE756A62AB2E5A100D83BAB /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE756A52AB2E5A100D83BAB /* ProgressView.swift */; };
+		3BE756A82AB2E71200D83BAB /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE756A72AB2E71200D83BAB /* ClockView.swift */; };
+		3BE756AA2AB2EA4400D83BAB /* BtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE756A92AB2EA4400D83BAB /* BtnView.swift */; };
+		3BF1A27E2A9CE93D007F3360 /* timer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3BF1A27D2A9CE93D007F3360 /* timer.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B80A3BD2AC9340D00E40C0C /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		3B80A3BF2AC9363700E40C0C /* PickerTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerTimeView.swift; sourceTree = "<group>"; };
+		3B9762972A8B9B38009310E4 /* timerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B97629A2A8B9B38009310E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B97629C2A8B9B38009310E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B97629E2A8B9B39009310E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B9762A12A8B9B39009310E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B9762A62A8B9B39009310E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9762A72A8B9B39009310E4 /* timerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = timerApp.entitlements; sourceTree = "<group>"; };
+		3B9762B22A8BB612009310E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		3BE756A52AB2E5A100D83BAB /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		3BE756A72AB2E71200D83BAB /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		3BE756A92AB2EA4400D83BAB /* BtnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnView.swift; sourceTree = "<group>"; };
+		3BF1A27D2A9CE93D007F3360 /* timer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = timer.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9762942A8B9B38009310E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B97628E2A8B9B38009310E4 = {
+			isa = PBXGroup;
+			children = (
+				3B9762992A8B9B38009310E4 /* timerApp */,
+				3B9762982A8B9B38009310E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B9762982A8B9B38009310E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9762972A8B9B38009310E4 /* timerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9762992A8B9B38009310E4 /* timerApp */ = {
+			isa = PBXGroup;
+			children = (
+				3B97629A2A8B9B38009310E4 /* AppDelegate.swift */,
+				3B97629C2A8B9B38009310E4 /* ContentView.swift */,
+				3BE756A52AB2E5A100D83BAB /* ProgressView.swift */,
+				3BE756A92AB2EA4400D83BAB /* BtnView.swift */,
+				3BE756A72AB2E71200D83BAB /* ClockView.swift */,
+				3B80A3BD2AC9340D00E40C0C /* PickerView.swift */,
+				3B80A3BF2AC9363700E40C0C /* PickerTimeView.swift */,
+				3BF1A27D2A9CE93D007F3360 /* timer.mp3 */,
+				3B97629E2A8B9B39009310E4 /* Assets.xcassets */,
+				3B9762B02A8BB612009310E4 /* Base.lproj */,
+				3B9762A62A8B9B39009310E4 /* Info.plist */,
+				3B9762A72A8B9B39009310E4 /* timerApp.entitlements */,
+				3B9762A02A8B9B39009310E4 /* Preview Content */,
+			);
+			path = timerApp;
+			sourceTree = "<group>";
+		};
+		3B9762A02A8B9B39009310E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B9762A12A8B9B39009310E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B9762B02A8BB612009310E4 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				3B9762B12A8BB612009310E4 /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B9762962A8B9B38009310E4 /* timerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9762AA2A8B9B39009310E4 /* Build configuration list for PBXNativeTarget "timerApp" */;
+			buildPhases = (
+				3B9762932A8B9B38009310E4 /* Sources */,
+				3B9762942A8B9B38009310E4 /* Frameworks */,
+				3B9762952A8B9B38009310E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timerApp;
+			productName = timerApp;
+			productReference = 3B9762972A8B9B38009310E4 /* timerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B97628F2A8B9B38009310E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = app.levikaw;
+				TargetAttributes = {
+					3B9762962A8B9B38009310E4 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 3B9762922A8B9B38009310E4 /* Build configuration list for PBXProject "timerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B97628E2A8B9B38009310E4;
+			productRefGroup = 3B9762982A8B9B38009310E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9762962A8B9B38009310E4 /* timerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9762952A8B9B38009310E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BF1A27E2A9CE93D007F3360 /* timer.mp3 in Resources */,
+				3B9762B62A8BB612009310E4 /* Main.storyboard in Resources */,
+				3B9762A22A8B9B39009310E4 /* Preview Assets.xcassets in Resources */,
+				3B97629F2A8B9B39009310E4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9762932A8B9B38009310E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B97629D2A8B9B38009310E4 /* ContentView.swift in Sources */,
+				3B80A3C02AC9363700E40C0C /* PickerTimeView.swift in Sources */,
+				3BE756AA2AB2EA4400D83BAB /* BtnView.swift in Sources */,
+				3B80A3BE2AC9340D00E40C0C /* PickerView.swift in Sources */,
+				3BE756A82AB2E71200D83BAB /* ClockView.swift in Sources */,
+				3BE756A62AB2E5A100D83BAB /* ProgressView.swift in Sources */,
+				3B97629B2A8B9B38009310E4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B9762B12A8BB612009310E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9762B22A8BB612009310E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B9762A82A8B9B39009310E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B9762A92A8B9B39009310E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B9762AB2A8B9B39009310E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = timerApp/timerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"timerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = timerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.levikaw.Timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3B9762AC2A8B9B39009310E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = timerApp/timerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"timerApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = timerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.levikaw.Timer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9762922A8B9B38009310E4 /* Build configuration list for PBXProject "timerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9762A82A8B9B39009310E4 /* Debug */,
+				3B9762A92A8B9B39009310E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9762AA2A8B9B39009310E4 /* Build configuration list for PBXNativeTarget "timerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9762AB2A8B9B39009310E4 /* Debug */,
+				3B9762AC2A8B9B39009310E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B97628F2A8B9B38009310E4 /* Project object */;
+}
